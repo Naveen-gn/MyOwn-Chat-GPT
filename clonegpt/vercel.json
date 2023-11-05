@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "clonegpt/api.py",
+            "src": "api.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "clonegpt/api.py"
+            "dest": "api.py"
         }
     ]
 }
